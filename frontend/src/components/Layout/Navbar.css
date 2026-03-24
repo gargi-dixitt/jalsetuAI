@@ -1,0 +1,12 @@
+.navbar { background: var(--primary); color: #fff; border-bottom: 1px solid var(--border); }
+.navbar-inner { display: flex; justify-content: space-between; align-items: center; padding: 10px 16px; gap: 16px; }
+.brand { display: flex; align-items: center; gap: 10px; }
+.brand .emblem { font-size: 28px; }
+.brand h1 { margin: 0; font-size: 1.2rem; font-family: var(--font-display); }
+.brand p { margin: 0; color: var(--surface); font-size: 0.85rem; }
+.navbar-right { text-align: right; line-height: 1.2; font-size: 0.95rem; }
+.tricolor-strip { height: 3px; display: flex; }
+.stripe { flex: 1; display: block; height: 3px; }
+.saffron { background: #F39C12; }
+.white { background: #fff; }
+.green { background: #1E8449; }

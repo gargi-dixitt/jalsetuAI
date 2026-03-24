@@ -1,0 +1,4 @@
+.water-meter { border: 1px solid var(--border); background: var(--surface-card); padding: 10px; border-radius: 8px; }
+.water-meter .meter { height: 8px; background: var(--surface); border-radius: 8px; margin-top: 6px; overflow: hidden; }
+.water-meter .fill { height: 100%; background: var(--primary); }
+.water-meter .wm-header { font-weight: 700; margin-bottom: 6px; }

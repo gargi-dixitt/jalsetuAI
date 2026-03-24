@@ -1,0 +1,7 @@
+.groundwater h2 { margin-top: 0; font-family: var(--font-display); }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-bottom: 16px; }
+.gw-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px; }
+.gw-card { border: 1px solid var(--border); border-radius: 8px; background: white; padding: 10px; }
+.gw-attrs { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.4; margin-top: 8px; }
+.gw-trend { margin-top: 10px; }
+.district-context { margin-top: 18px; padding: 12px; border: 1px solid var(--border); border-radius: 8px; background: #fafcff; }

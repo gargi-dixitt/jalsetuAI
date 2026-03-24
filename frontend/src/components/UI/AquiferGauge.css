@@ -1,0 +1,4 @@
+.aquifer-gauge { border: 1px solid var(--border); background: var(--surface-card); border-radius: 8px; padding: 10px; }
+.gauge-bar { width: 24px; height: 120px; border: 2px solid var(--groundwater); border-radius: 8px; margin: auto; position: relative; overflow: hidden; display: flex; align-items: flex-end; }
+.gauge-fill { width: 100%; }
+.gauge-labels { margin-top: 8px; font-size: 0.8rem; color: var(--text-secondary); font-family: var(--font-mono); }

@@ -1,0 +1,4 @@
+.stat-card { background: var(--surface-card); border: 1px solid var(--border); border-left: 6px solid var(--primary); border-radius: var(--radius-md); box-shadow: var(--shadow-card); padding: 14px; min-width: 140px; }
+.stat-card h3 { margin: 0 0 6px; font-size: 0.8rem; color: var(--text-secondary); }
+.stat-card strong { font-size: 1.2rem; display: block; color: var(--text-primary); margin-bottom: 4px; }
+.stat-card small { font-size: 0.75rem; color: var(--text-muted); }
