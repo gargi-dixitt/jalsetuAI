@@ -1,0 +1,7 @@
+.top-bar { margin-bottom: 10px; }
+.top-bar input { width: 100%; padding: 8px 10px; border: 1px solid var(--border); border-radius: 6px; }
+.village-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; }
+.village-card { background: var(--surface-card); border: 1px solid var(--border); border-radius: 8px; box-shadow: var(--shadow-card); padding: 10px; }
+.villa-title { display: flex; justify-content: space-between; align-items: center; font-weight: 600; margin-bottom: 4px; }
+.gw-banner { border-top: 1px solid var(--border); margin-top: 8px; padding-top: 6px; color: var(--groundwater); }
+.view-detail { display: inline-block; margin-top: 8px; color: var(--accent); font-weight: 600; }

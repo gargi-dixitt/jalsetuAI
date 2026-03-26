@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "jalsetu-ai-backend",
   "version": "1.0.0",
   "description": "JalSetu AI backend for MP water management pilot",
@@ -15,5 +16,31 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
+=======
+  "name": "hackathon",
+  "version": "1.0.0",
+  "description": "AI-powered smart water management system that:\r - Predicts water shortages\r - Optimizes tanker delivery\r - Provides AI-based insights",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "build": "cd frontend && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/git-Rag/jalsetuAI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/git-Rag/jalsetuAI/issues"
+  },
+  "homepage": "https://github.com/git-Rag/jalsetuAI#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+>>>>>>> c88f19981b5c33dc7c688f89dda9b206fb6507b4
   }
 }

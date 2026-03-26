@@ -1,0 +1,3 @@
+.about-page { border: 1px solid var(--border); border-radius: 8px; background: white; padding: 16px; }
+.about-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 12px; margin: 12px 0; }
+.about-grid section { border: 1px solid var(--border); border-radius: 8px; padding: 10px; background: #f8fbfd; }

@@ -1,0 +1,7 @@
+.predictions h2 { margin-top: 0; font-family: var(--font-display); }
+.alert { border-left: 4px solid var(--danger); background: #fdecea; padding: 8px; margin-bottom: 10px; }
+.predictions-table-wrap { overflow-x: auto; margin-top: 12px; }
+table { width: 100%; border-collapse: collapse; }
+th,td { border: 1px solid var(--border); padding: 8px; }
+.dual { border-left: 6px solid var(--danger); }
+.details { margin-top: 12px; background: #fff; border: 1px solid var(--border); padding: 10px; border-radius: 8px; }
